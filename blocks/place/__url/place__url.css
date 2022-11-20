@@ -1,0 +1,4 @@
+.place__url {
+  outline: 1px solid red;
+  align-self: flex-end;
+}
