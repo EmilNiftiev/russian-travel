@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествия по России</title>
   </head>
-  <body>
+  <body class="body">
     <div class="page">
       <header class="header">
         <div class="header__logo"></div>
         <ul class="header__lang-links">
-          <li>
-            <a class="header__lang-link" href="#">Ru</a>
+          <li class="header__lang-link-cell">
+            <a class="header__lang-link header__lang-link_active" href="#"
+              >Ru
+            </a>
           </li>
-          <li>
+          <li class="header__lang-link-cell">
             <a class="header__lang-link" href="#">En</a>
           </li>
         </ul>
@@ -43,11 +45,23 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+            <li>
+              <span class="intro__span-accent"
+                >Объектов природного наследия ЮНЕСКО
+              </span>
+              12
+            </li>
+            <li>
+              <span class="intro__span-accent"
+                >Объектов культурного наследия ЮНЕСКО
+              </span>
+              16
+            </li>
+            <li>
+              <span class="intro__span-accent">Природных заповедников</span> 105
+            </li>
+            <li><span class="intro__span-accent">Аэропортов </span> 241</li>
           </ul>
         </section>
         <section class="photo-grid">

@@ -1,7 +1,11 @@
 .header {
   outline: 1px solid red;
-  max-width: 1184px;
-  margin: 0 auto;
+  /* max-width: 1184px;
+  min-width: 320px; */
+  width: 100%;
+  /* margin: 0 auto; */
+  padding: 28px 48px 0;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
 }
