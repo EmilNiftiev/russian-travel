@@ -1,10 +1,10 @@
 .lead__title {
   outline: 1px solid red;
-  width: 73%;
-  align-self: center;
+  width: 73.18%;
   margin: 0 auto 32px;
-  font-family: "Inter";
-  font-style: normal;
+  align-self: center;
+  /* font-family: "Inter"; */
+  /* font-style: normal; */
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;

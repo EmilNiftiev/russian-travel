@@ -1,8 +1,10 @@
 .lead {
   outline: 1px solid red;
-  margin: 0 auto;
-  max-width: 984px;
+  margin: 0 auto; /* Нужно ли тут это? */
+  /* max-width: 984px; */
   width: 100%;
+  padding: 0 148px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
