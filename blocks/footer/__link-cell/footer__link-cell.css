@@ -1,0 +1,13 @@
+.footer__link-cell {
+  font-size: 0;
+  margin-right: 18px;
+  transition: 0.5s ease;
+}
+
+.footer__link-cell:hover {
+  opacity: 0.8;
+}
+
+.footer__link-cell:last-of-type {
+  margin: 0;
+}

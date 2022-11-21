@@ -3,9 +3,11 @@
   background-position: center center;
   background-size: cover;
   max-width: calc(100% - 96px);
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: calc(245 / (1280) * 100vw) 0;
+  /* padding: calc(245 / (1280) * 100vw) 0; */
+  padding: 19.141% 0;
   margin: 92px auto;
   position: relative;
 }
