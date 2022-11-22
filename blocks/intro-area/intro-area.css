@@ -1,0 +1,8 @@
+.intro-area {
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 92px 0;
+  display: flex;
+}

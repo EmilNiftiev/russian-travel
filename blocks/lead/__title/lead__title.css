@@ -1,6 +1,7 @@
 .lead__title {
   outline: 1px solid red;
-  width: 73.18%;
+  /* width: 73.18%; */
+  max-width: 720px;
   margin: 0 auto 32px;
   align-self: center;
   /* font-family: "Inter"; */

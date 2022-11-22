@@ -1,11 +1,10 @@
 .places {
   outline: 1px solid red;
   margin: 0 auto;
-  display: grid;
-  /* grid-template-columns: 1; */
-  gap: 80px 0;
-  /* width: calc(100% - 296px); */
-  width: 100%;
+  padding: 92px 0;
   box-sizing: border-box;
-  padding: 92px 148px;
+  display: grid;
+  gap: 80px 0;
+  max-width: 984px;
+  width: 100%;
 }

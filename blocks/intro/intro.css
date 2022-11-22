@@ -1,9 +1,5 @@
 .intro {
   outline: 1px solid blue;
-  /* max-width: 690px; */
+  max-width: 690px;
   width: 100%;
-  /* margin: 92px 148px; */
-  box-sizing: border-box;
-  padding: 92px 442px 92px 148px;
-  /* margin: 92px 442px 148px 148px; */
 }
