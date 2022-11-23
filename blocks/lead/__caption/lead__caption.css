@@ -1,8 +1,4 @@
 .caption {
-  outline: 1px solid red;
-  /* display: inline-block;
-  width: 158px;
-  height: 14px; */
   text-align: center;
   align-self: flex-start;
   margin: 0;

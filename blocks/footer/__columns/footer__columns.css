@@ -2,7 +2,6 @@
   /* width: calc(100% - 96px); */
   /* margin: 0 auto 24px;
   max-width: 1184px; */
-  outline: 1px solid red;
   width: 100%;
   display: flex;
   justify-content: space-between;

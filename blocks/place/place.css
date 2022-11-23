@@ -1,5 +1,4 @@
 .place {
-  outline: 1px solid orange;
   display: grid;
   /* grid-template-columns: 460px 1fr; */
   /* grid-template-columns: minmax(320px, 460px) minmax(288px, 484px); */
