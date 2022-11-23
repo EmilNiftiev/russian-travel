@@ -11,3 +11,18 @@
   line-height: 1.2;
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto 40px;
+  }
+}

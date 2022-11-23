@@ -2,6 +2,37 @@
   outline: 1px solid orange;
   display: grid;
   /* grid-template-columns: 460px 1fr; */
-  grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+  /* grid-template-columns: minmax(320px, 460px) minmax(288px, 484px); */
+  grid-template-columns: minmax(320px, 460px) 1fr;
   gap: 48px 40px;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    grid-template-columns: minmax(320px, 440px) 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(320px, 340px) 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width: 650px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place {
+    grid-template-columns: 320px;
+    row-gap: 32px;
+  }
 }

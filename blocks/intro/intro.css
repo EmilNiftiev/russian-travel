@@ -3,3 +3,15 @@
   max-width: 690px;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 245px) {
+  .intro {
+    max-width: 288px;
+  }
+}

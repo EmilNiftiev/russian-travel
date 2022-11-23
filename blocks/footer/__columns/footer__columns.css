@@ -2,8 +2,16 @@
   /* width: calc(100% - 96px); */
   /* margin: 0 auto 24px;
   max-width: 1184px; */
+  outline: 1px solid red;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 729px) {
+  .footer__columns {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

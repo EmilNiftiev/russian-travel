@@ -11,3 +11,9 @@
 .footer__link-cell:last-of-type {
   margin: 0;
 }
+
+@media (max-width: 729px) {
+  .footer__link-cell {
+    margin: 0 0 32px 0;
+  }
+}

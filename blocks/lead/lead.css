@@ -8,3 +8,21 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead {
+    max-width: 320px;
+  }
+}

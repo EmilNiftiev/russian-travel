@@ -8,3 +8,24 @@
   max-width: 984px;
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    padding: 88px 0;
+    gap: 73px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .places {
+    padding: 64px 0;
+    gap: 50px 0;
+  }
+}

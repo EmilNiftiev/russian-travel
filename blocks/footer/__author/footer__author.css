@@ -5,5 +5,11 @@
   font-weight: 400; */
   font-size: 14px;
   line-height: 16px;
-  /* text-align: right; */
+}
+
+@media (max-width: 729px) {
+  .footer__author {
+    font-size: 14px;
+    line-height: 1;
+  }
 }

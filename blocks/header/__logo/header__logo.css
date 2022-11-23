@@ -9,3 +9,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (max-width: 425px) {
+  .header__logo {
+    height: 42px;
+    width: 142px;
+  }
+}

@@ -14,3 +14,15 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .caption {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .caption {
+    margin-left: 16px;
+  }
+}

@@ -9,5 +9,21 @@
 }
 
 .place__paragraph:last-of-type {
-  margin: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+    margin: 0 0 25px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraph {
+    margin: 0 16px 25px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

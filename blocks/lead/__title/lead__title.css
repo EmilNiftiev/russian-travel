@@ -12,3 +12,19 @@
   text-align: center;
   text-rendering: optimizeLegibility;
 }
+
+@media (max-width: 767px) {
+  .lead__title {
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 auto 16px;
+  }
+}
