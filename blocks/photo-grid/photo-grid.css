@@ -23,6 +23,14 @@
 
 @media (max-width: 425px) {
   .photo-grid {
+    max-width: 425px;
+    max-width: calc(100% - 32px);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo-grid {
     max-width: 288px;
     gap: 12px;
   }
