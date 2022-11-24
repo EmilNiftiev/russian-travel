@@ -2,8 +2,4 @@
   .footer__column {
     margin-bottom: 48px;
   }
-
-  .footer__column:last-child {
-    margin-bottom: 0;
-  }
 }

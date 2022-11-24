@@ -20,7 +20,7 @@
 
 ##### Языки программирования, использумые при создании работы:
 
-- [**Ссылка на проект на Github.com**](https://github.com/EmilNiftiev/russian-travel).
+- [**Ссылка на проект на Github.com**](https://emilniftiev.github.io/russian-travel).
 
 ##### Планы по доработке текущего проекта:
 

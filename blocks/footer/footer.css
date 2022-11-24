@@ -5,6 +5,8 @@
   padding: 92px 0 24px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 1024px) {
@@ -22,5 +24,7 @@
 @media (max-width: 729px) {
   .footer {
     padding: 64px 118px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

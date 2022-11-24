@@ -1,4 +1,4 @@
-.caption {
+.lead__caption {
   text-align: center;
   align-self: flex-start;
   margin: 0;
@@ -12,13 +12,13 @@
 }
 
 @media (max-width: 768px) {
-  .caption {
+  .lead__caption {
     margin-left: 24px;
   }
 }
 
 @media (max-width: 425px) {
-  .caption {
+  .lead__caption {
     margin-left: 16px;
   }
 }
